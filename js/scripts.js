@@ -164,7 +164,7 @@ jQuery(document).ready(function() {
 	/*	Services
 	/*-----------------------------------------------------------------------------------*/
 	
-	var curSkills="branding";
+	var curSkills="web";
 	
 	/* Services Animations */
 	jQuery('.service').click(function(){
@@ -318,7 +318,7 @@ jQuery(document).ready(function() {
 
 	/* Initalize Twitter Feed */
 		$('#twitter').tweetable({
-			username: 'digitalcookers', 
+			username: 'Maryl_', 
 			time: true,
 			limit: 5,
 			replies: false,
@@ -348,7 +348,7 @@ jQuery(document).ready(function() {
 	jQuery('#flickr').jflickrfeed({
 		limit: 12,
 		qstrings: {
-			id: '36587311@N08'
+			id: '69166844@N00'
 		},
 		itemTemplate: '<div class="col-xs-3 col-sm-2 flickr-photo"><a href="{{image_b}}"target="_blank"> <img src="{{image_m}}" alt="{{title}}" /> </a></div>'
 	});
@@ -357,7 +357,7 @@ jQuery(document).ready(function() {
 	jQuery.fn.spectragram.accessData={accessToken:'2136707.12e2743.9576ae17af4e4ad4aebf6b72433c01fd',clientID:'12e27430fe054c72839c5f16f86177e1'};
 	
 	jQuery('#instagram').spectragram('getUserFeed',{
-	    query: 'alotofbradshaw',
+	    query: 'maryl_',
 	    max: 12
 	});
 
@@ -367,16 +367,16 @@ jQuery(document).ready(function() {
 			jQuery('#social-feed li').removeClass('active');
 			jQuery(this).addClass('active');
 			$("#twitter").find(".tweetList").css('top', '0');
-			if(jQuery(this).attr('id') == 'instagram-feed'){
-				jQuery('.feed').hide();
-				jQuery('#instagram').fadeIn(1000);
-			} else if ($(this).attr('id') == 'twitter-feed') {
-				$('.feed').hide();
-				$('#twitter').fadeIn();
-			} else if (jQuery(this).attr('id') == 'flickr-feed') {
+			if (jQuery(this).attr('id') == 'flickr-feed') {
 				jQuery('.feed').hide();
 				jQuery('#flickr').fadeIn(1000);
-			}
+			}else if ($(this).attr('id') == 'twitter-feed') {
+				$('.feed').hide();
+				$('#twitter').fadeIn();
+			} else if(jQuery(this).attr('id') == 'instagram-feed'){
+				jQuery('.feed').hide();
+				jQuery('#instagram').fadeIn(1000);
+			} 
 		});	
 
 	/*-----------------------------------------------------------------------------------*/
