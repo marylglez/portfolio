@@ -202,7 +202,7 @@ section#studio{padding-bottom: 0;overflow:hidden;}
 
 #work-filter{margin:0;margin-bottom: 0.5em;font-weight: bold;font-size: 1.3125em;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
 #work-filter li{cursor:pointer;}
-#work-filter li.active, #work-filter li:hover{color:#fff;}
+#work-filter li.active, #work-filter li:hover{color:#f4594e;}
 #work-filter ul {margin-bottom:2em;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
 #works select{margin-bottom: 2em;}
 
