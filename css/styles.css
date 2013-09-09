@@ -93,7 +93,7 @@ height: 100%;
 #logo-lettering img{height: 3.5em;}
 
 #menu-mobile i{position:absolute;top:0.3em;right:0.6em; color: #ef4c22; cursor:pointer;}
-#menu-mobile:hover i,#menu-mobile.active i{color:#f4594e;}
+#menu-mobile:hover i,#menu-mobile.active i{color:#f4594ev}
 
 /* ==========================================================================
    All Section Styles
@@ -350,7 +350,7 @@ footer hr{margin:0; margin-bottom:2em;border-bottom:1px solid #cccccc;}
 	#logo img{width:150px;}
 
 	#intro h1{margin-top: 1.25em;font-size: 3em;}
-	#intro h2{font-size: 1.5em; color: #504a46;}
+	#intro h2{font-family: 'Nixie One', cursive; font-size: 1.5em; color: #504a46;}
 	
 	#explore{margin-top: 0em;}
 	
